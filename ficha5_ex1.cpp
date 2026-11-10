@@ -9,7 +9,7 @@ int main() {
     int numero[n];
     int soma = 0;
 
-    cout << "Digite 10 numeros para somar os seus quadrados\n"
+    cout << "Digite 10 numeros para somar os seus quadrados\n";
     for (int i = 0; i < n; i++) {
         cout << "Numero " << i + 1 << ": ";
         cin >> numero[i];
