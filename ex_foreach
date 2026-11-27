@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string nomesPessoal[] = {"Tiago", "Elizabeth", "Arthur", "Cesar"};
+    for(string nomes : nomesPessoal) {
+        cout << nomes << "\n";
+    }
+    return 0;
+}
